@@ -13,10 +13,6 @@
     <br>
     <img src="https://media.giphy.com/media/ce28l1P13CVK56OyCN/giphy.gif" alt="Demo example"/>
     <br>
-    <br>
-    <a href="https://github.com/Ismaestro/angular9-example-app/issues/new">Report bug</a>
-    ·
-    <a href="https://github.com/Ismaestro/angular9-example-app/issues/new">Request feature</a>
   </p>
 </p>
 
@@ -33,15 +29,6 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Status
-
-![travis](https://travis-ci.org/Ismaestro/angular8-example-app.svg?branch=master)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ismaestro_angular8-example-app&metric=alert_status)](https://sonarcloud.io/dashboard?id=Ismaestro_angular8-example-app)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Ismaestro_angular8-example-app&metric=coverage)](https://sonarcloud.io/dashboard?id=Ismaestro_angular8-example-app)
-[![dependency Status](https://david-dm.org/ismaestro/angular8-example-app.svg)](https://david-dm.org/ismaestro/angular8-example-app#info=dependencies)
-[![devDependency Status](https://david-dm.org/ismaestro/angular8-example-app/dev-status.svg)](https://david-dm.org/ismaestro/angular8-example-app#info=devDependencies)
-[![peerDependencies Status](https://david-dm.org/ismaestro/angular8-example-app/peer-status.svg)](https://david-dm.org/ismaestro/angular8-example-app?type=peer)
-[![GitHub stars](https://img.shields.io/github/stars/ismaestro/angular8-example-app.svg?style=social&label=Star)](https://github.com/ismaestro/angular8-example-app)
-[![GitHub forks](https://img.shields.io/github/forks/ismaestro/angular8-example-app.svg?style=social&label=Fork)](https://github.com/ismaestro/angular8-example-app/fork)
 
 ## What's included
 
@@ -79,20 +66,6 @@
       [karma-mocha-reporter](https://github.com/litixsoft/karma-mocha-reporter) and
       [ng-mocks](https://github.com/ike18t/ng-mocks)
 - [x] End-to-end tests with Protractor, (moving to Cypress)
-
-### Angular Universal and i18n
-
-This project is using firebase and Angular Universal with the official internationalization. You can
-navigate through every language and reload (and share) every page in the application without losing
-context. This is very useful for SEO purposes and you almost have a ready for production app. If you
-want to translate the messages you can use this awesome tool,
-[Tiny Translator](https://martinroob.github.io/tiny-translator/en/#/translate) or follow
-[this tutorial](https://github.com/martinroob/ngx-i18nsupport/wiki/Tutorial-for-using-xliffmerge-with-angular-cli).
-
-I've created a medium post where you can find a tutorial to apply this concepts to your own project.
-[Check it here](https://medium.com/@ismaestro/angular-7-example-app-with-angularcli-angular-universal-i18n-official-firebase-66deac2dc31e),
-and let me know what do you think.
-
 ### Firebase
 
 This repo is using Firebase. We use Cloud Firestore and Cloud Storage to handle CRUD operations over
@@ -142,33 +115,6 @@ npm start
 | npm run release:minor      | Create a new minor release using standard-version                                                    |
 | npm run release:major      | Create a new major release using standard-version                                                    |
 | npm run ci                 | Execute linter, tests and production builds                                                          |
-
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the
-[issue guidelines](https://github.com/Ismaestro/angular9-example-app/blob/master/CONTRIBUTING.md)
-and search for existing and closed issues. If your problem or idea is not addressed yet,
-[please open a new issue](https://github.com/Ismaestro/angular9-example-app/issues/new).
-
-## Contributing
-
-Please read through our
-[contributing guidelines](https://github.com/Ismaestro/angular9-example-app/blob/master/CONTRIBUTING.md).
-Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide),
-maintained by [Ismael Ramos](https://github.com/ismaestro).
-
-Editor preferences are available in the
-[editor config](https://github.com/Ismaestro/angular9-example-app/blob/master/.editorconfig) for
-easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
-
-## Creators
-
-**Ismael Ramos**
-
-- <https://github.com/ismaestro>
-
 ## Thanks
 
 Thanks to all contributors and their support.
@@ -176,9 +122,3 @@ Thanks to all contributors and their support.
 If you have an idea or you want to do something, tell me or just do it! I'm always happy to hear
 your feedback!
 
-## Copyright and license
-
-Code and documentation copyright 2020 the authors. Code released under the
-[MIT License](https://github.com/Ismaestro/angular9-example-app/blob/master/LICENSE).
-
-Enjoy :metal:
